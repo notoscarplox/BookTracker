@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(52, 73, 53);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.headtitle {
+    text-align: center;
+}
+
+.bookEntry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+}
