@@ -13,14 +13,38 @@ body {
     text-align: center;
 }
 
+#containerList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bookList {
+    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
 .bookEntry {
+    flex: 1;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 5px 0;
-    text-align: left;
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    width: 70%;
 }
 
 button {
     padding: 10px;
     margin: 10px;
 }
+
+.bookEntry > button {
+    margin: 0;
+    padding: 0;
+}
+
+
