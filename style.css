@@ -10,7 +10,10 @@ body {
 }
 
 .headtitle {
+    font-family: 'Gowun Batang', serif;
+    font-size: 40px;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 #containerList {
@@ -37,7 +40,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
-    width: 70%;
+    width: 100%;
 }
 
 button {
